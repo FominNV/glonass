@@ -1,0 +1,17 @@
+@import "styles/sass/main";
+
+.Row {
+  display: flex;
+  column-gap: 3px;
+  height: 22px;
+  margin-bottom: 3px;
+
+  &__button-wrap {
+    width: 56px;
+    height: 100%;
+
+    &_hidden {
+      display: none;
+    }
+  }
+}
