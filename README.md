@@ -6,4 +6,4 @@
 
 Стилизация - SCSS + BEM + flex.
 
-Deploy [#GlonassSoft](https://fominnv.github.io/carsharing/)
+Deploy [#GlonassSoft](https://fominnv.github.io/glonass/)
