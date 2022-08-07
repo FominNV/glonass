@@ -1,0 +1,15 @@
+@import "styles/sass/main";
+
+.Button {
+  @include btn-reset;
+  width: 100%;
+  height: 100%;
+  font: 600 14px/14px $roboto-regular;
+  background: $gray-high-light;
+  border: 1px solid $gray-light;
+  transition: all 0.25s;
+
+  &:hover {
+    filter: brightness(70%);
+  }
+}
