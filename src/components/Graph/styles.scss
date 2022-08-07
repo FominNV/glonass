@@ -1,0 +1,130 @@
+@import "styles/sass/main";
+
+.Graph {
+  position: relative;
+  width: 540px;
+  height: 540px;
+
+  &__panel {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    display: flex;
+    column-gap: 8px;
+    height: 30px;
+    padding: 8px;
+    user-select: none;
+  }
+
+  &__buttons {
+    display: flex;
+    column-gap: 6px;
+    height: 22px;
+  }
+
+  &__title {
+    font: 400 20px/20px $roboto-regular;
+  }
+
+  &__button {
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    transition: all 0.25s;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &_active {
+      background: green;
+      color: white;
+      opacity: 1;
+      cursor: default;
+    }
+  }
+
+  &__canvas-wrap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    border-radius: 12px;
+    z-index: 5;
+  }
+
+  &__canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__side-resizer {
+    position: absolute;
+
+    &_top,
+    &_bottom {
+      width: calc(100% - 20px);
+      height: 10px;
+      left: 10px;
+      cursor: ns-resize;
+    }
+
+    &_top {
+      top: -5px;
+    }
+
+    &_bottom {
+      bottom: -5px;
+    }
+
+    &_right,
+    &_left {
+      width: 10px;
+      height: calc(100% - 20px);
+      top: 10px;
+      cursor: ew-resize;
+    }
+
+    &_right {
+      right: -5px;
+    }
+
+    &_left {
+      left: -5px;
+    }
+  }
+
+  &__corner-resizer {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+
+    &_top-left {
+      top: -7px;
+      left: -7px;
+      cursor: nwse-resize;
+    }
+
+    &_top-right {
+      top: -7px;
+      right: -7px;
+      cursor: nesw-resize;
+    }
+
+    &_bottom-right {
+      bottom: -7px;
+      right: -7px;
+      cursor: nwse-resize;
+    }
+
+    &_bottom-left {
+      bottom: -7px;
+      left: -7px;
+      cursor: nesw-resize;
+    }
+  }
+}
