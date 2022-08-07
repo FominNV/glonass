@@ -1,8 +1,8 @@
 # Glonass test work
 
-Проект написан ReactJs + Redux-thunk.
+Проект написан на ReactJs + Redux.
 
-Для чистоты коды использовался EsLint.
+Для чистоты кода использовался EsLint.
 
 Стилизация - SCSS + BEM + flex.
 
