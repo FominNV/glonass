@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/glonass/static/css/main.a6b972f0.css",
+    "main.js": "/glonass/static/js/main.60eaf921.js",
+    "static/media/Roboto-Regular.ttf": "/glonass/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "index.html": "/glonass/index.html",
+    "main.a6b972f0.css.map": "/glonass/static/css/main.a6b972f0.css.map",
+    "main.60eaf921.js.map": "/glonass/static/js/main.60eaf921.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6b972f0.css",
+    "static/js/main.60eaf921.js"
+  ]
+}
