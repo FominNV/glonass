@@ -1,6 +1,6 @@
 # Glonass test work
 
-Проект написан на ReactJs + Redux.
+Проект написан на ReactJs + TypeScript + Redux.
 
 Для чистоты кода использовался EsLint.
 
